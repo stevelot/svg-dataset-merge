@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="InputFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[app]\Example files\InputFile.svg</Value>
+    </Setting>
+    <Setting Name="OutputFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[docs]\OutputExample.svg</Value>
+    </Setting>
+    <Setting Name="DataFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[app]\Example files\DataIn.xlsx</Value>
+    </Setting>
+    <Setting Name="DataQuery" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SELECT * FROM [Sheet1$A1:E101] WHERE (use = 1)</Value>
+    </Setting>
+    <Setting Name="XpathCopyElement" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id='copy']</Value>
+    </Setting>
+    <Setting Name="XpathSizeElement" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id='size']</Value>
+    </Setting>
+    <Setting Name="DataSource" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
